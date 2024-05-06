@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Roboto Slab'; 
     font-size: 16px;
     background-color:rgb(43, 43, 43)
 }
@@ -97,33 +99,43 @@ ul {
     color: darkgray;
 }
 
-.boxes {
-    background-color: darkgray;
-    min-height: 400px;
-}
-
-.boxes .statement {
-    color: black;
-    text-align: center;
-    /* background-color: #3882F6; for debugging */
-    padding: 30px;
-
-}
-
-.boxes .container {
-    background-color: #1f2937;
-}
-
- .container .box {
+.second-section {
+    background-color: white;
+    height: 400px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
-.box img {
-    width: 300px;
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    padding-top: 15px;
 }
 
-.boxes .descriptions {
+.row-of-blue-divs {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
+    max-width: 75%;
+    margin: auto;
+    gap:100px;
+}
+
+.blue-box {
+    background-color: white;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 50px;
+    width: 10px;
+}
+
+.p-second{
+    font-size: 18px;
+    color: #1f2937;
+    width: 100px;
+    text-align: center;
 }
